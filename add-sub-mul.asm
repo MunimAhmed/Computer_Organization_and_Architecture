@@ -20,16 +20,19 @@ MAIN PROC
     MOV AX, @DATA
     MOV DS, AX
     
-    MOV AX,A
-    ADD AX,B
+    MOV AX,A 
+    MOV BX,B
+    ADD AX,BX
     MOV SUM,AX  
     
     MOV AX,A
-    SUB AX,B
+    MOV BX,B
+    SUB AX,BX
     MOV SUB1,AX
     
     MOV AX,A
-    MUL B
+    MOV BX,B
+    MUL BX
     MOV MUL1,AX
     
     
